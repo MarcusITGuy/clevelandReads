@@ -1,4 +1,20 @@
-body {margin:0;font-family:Arial}
+body {
+    margin:0;font-family:Arial;
+   
+    
+}
+
+.image img{
+
+    width: 100%;
+    display: block;
+}
+
+.imageSlides {
+  display: none
+}
+ 
+
 
 .topnav {
   overflow: hidden;
@@ -130,6 +146,7 @@ body {margin:0;font-family:Arial}
     color: #999;
     text-align: center;
     
+    
 }
 
 
@@ -203,9 +220,6 @@ body {margin:0;font-family:Arial}
 
 
 
-.so-logo{
-  
-}
 .social {
     margin-top: 50px;
 }
@@ -215,5 +229,65 @@ body {margin:0;font-family:Arial}
     margin: 10px;
 }
 
+
+/*events */
+
+.events{
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.event-header{
+    background-image: url(./images/Asset\ 2-100.jpg);
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.eventdirection{
+    color: white;
+    background-image: url(./images/Asset\ 2-100.jpg);
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%; 
+}
+
+.container{
+    text-align: center;
+    color: white;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.direction{
+    margin: 10px;
+}
 
 
