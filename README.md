@@ -1,1 +1,1 @@
-<a href="https://scholarshipacess.000webhostapp.com/index.html">CLICK TO CHECK OUT THE CURRENT PROJECT STATE </a>
+<a href="https://kofiboadu.github.io/clevelandReads/">VIEW SITE </a>
