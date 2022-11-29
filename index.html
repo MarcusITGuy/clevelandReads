@@ -66,6 +66,118 @@
 
 
 
+
+
+<!--Image slides start here -->
+
+<div class="image" id='home'>
+    <img  class="slides" src="./images/pexels-cottonbro-studio-5998713.jpg" alt="">
+    <img  class="slides" src="./images/pexels-julia-m-cameron-4144042.jpg" alt="">
+    <img  class="slides" src="./images/pexels-victoria-akvarel-2363289.jpg" alt="">
+</div>
+
+<!-- image slides ends here -->
+
+
+<!--EVENTS-->
+
+
+<div class="events" id="mainEvents">
+
+    <div class="event-header">
+        <div class="container">
+           <h1>Cleveland Reads! Kick Off Events</h1>
+           <h4>12:00-3:00PM</h4>
+           <h4>Saturday, December 17,2022</h4>
+           <h4>Cleveland Public Auditorium & Conference Center
+            <br>
+            500 Lakeside Avenue
+            <br>
+            Cleveland,OH 44114
+           </h4>
+           <div class="description">
+            <p>
+              Help us kick off the 2023 CLEVELAND READS CAMPAIGN !
+              Community members can choose books for their home libraries,Visit community partners booths/tables,enjoy children's activity and raffles
+              prizes for attendees of all ages!
+            </p>
+           </div>
+        </div>
+    
+    </div>
+ 
+<table>
+    <tr>
+      <th>Locations</th>
+      <th>Schedule Time</th>
+      <th>Cost</th>
+    </tr>
+    <tr>
+      <td>Carnegie</td>
+      <td>11:20 am Patron Boarding Begins</td>
+      <td>Free and Open to the Public</td>
+    </tr>
+    <tr>
+      <td>Carnegie</td>
+      <td>11:20 am Patron Boarding Begins</td>
+      <td>Free and Open to the Public</td>
+    </tr>
+    <tr>
+      <td>Carnegie</td>
+      <td>11:20 am Patron Boarding Begins</td>
+      <td>Free and Open to the Public</td>
+    </tr>
+    <tr>
+      <td>Carnegie</td>
+      <td>11:20 am Patron Boarding Begins</td>
+      <td>Free and Open to the Public</td>
+    </tr>
+    
+  </table>
+
+  <div class="eventdirection">
+
+   <h3>Directions</h3>
+
+    <p>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in 
+        a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+         a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+          consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, 
+          discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum 
+          
+    </p>
+
+    <p>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in 
+        a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+         a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+          consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, 
+          discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum 
+          
+    </p>
+
+    <p>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in 
+        a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+         a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+          consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, 
+          discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum 
+          
+    </p>
+    
+  </div>
+</div>
+<!--EVENTS ENDS -->
+
+
+
+
+
+
+
+
+
 <!--footer starts here -->
 
 <footer class="footer">
@@ -126,6 +238,8 @@
 
    <!--Javascript starts -->
    <script>
+
+
     function myFunction() {
       var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
@@ -134,6 +248,26 @@
         x.className = "topnav";
       }
     }
+
+
+
+
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("slides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    } 
+
+
     </script>
    <!-- Java scripts ends -->
 </body>
